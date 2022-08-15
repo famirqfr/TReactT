@@ -5,18 +5,17 @@ import './contact.css'
 export default class Contact extends Component{
     render() {
         return[
-            <section className="pt-page" data-id="contact">
+            <section className="pt-page">
               <div className="section-inner custom-page-content">
                 <div className="page-header color-1">
                   <h2>تماس</h2>
                 </div>
-                <div className="page-content">
+                <div className="page-content text-right rtl">
                   <div className="row">
-                    <div className="col-sm-6 col-md-6" style={{float : 'right'}}>
+                    <div className="col-sm-6 col-md-6 right">
                       <div className="block-title">
                         <h3>با من در <span>ارتباط </span>باشید</h3>
                       </div>
-                      {/* Google Map */}
                       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d404.87777474082657!2d51.41598256805549!3d35.725672594581724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8e011f0d657a87%3A0x83da6e9185a01c32!2z2LTYsdqp2Kog2KrYrNin2LHYqiDYp9mE2qnYqtix2YjZhtuM2qkg2KLbjNix24zaqSDZvtin2LHYs9uM2KfZhg!5e0!3m2!1sen!2sde!4v1660392755251!5m2!1sen!2sde" width="400" height="250" style={{border : '0',allowfullscreen:'',referrerpolicy: 'no-referrer-when-downgrade'}}></iframe>
 
                       <div className="contact-info-block">

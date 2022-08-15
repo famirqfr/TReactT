@@ -9,7 +9,7 @@ export default class Resume extends Component{
                 <div className="page-header color-1">
                   <h2>رزومه</h2>
                 </div>
-                <div className="page-content">
+                <div className="page-content text-right rtl">
                   <div className="row">
                     <div className="col-sm-6 col-md-6 col-lg-6">
                       <div className="block">
@@ -90,7 +90,7 @@ export default class Resume extends Component{
                       </div>
                     </div>
                   </div>
-                  <div>
+                  <div className="col-sm-12 col-md-12 col-lg-6 right">
                     <div className="block">
                       <div className="block-title">
                         <h3><i className="fa fa-certificate" aria-hidden="true"></i> گواهینامه‌های <span>من</span></h3>
@@ -127,7 +127,7 @@ export default class Resume extends Component{
                       </div>
                     </div>
                   </div>
-                  <div className="col-sm-12 col-md-12 col-lg-12 right">
+                  <div className="col-sm-12 col-md-12 col-lg-6 right">
                     <div className="block">
                       <div className="block-title">
                         <h3><i className="fa fa-cogs" aria-hidden="true"></i> مهارت های <span>من</span></h3>

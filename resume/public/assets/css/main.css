@@ -514,9 +514,7 @@ body > footer .copyrights {
 .pt-page {
   width: 100%;
   max-width: 1032px;
-  height: 0;
-  position: absolute;
-  opacity: 0;
+
   top: auto;
   padding: 0;
   left: 0;
@@ -524,8 +522,6 @@ body > footer .copyrights {
   margin: 0 auto;
   padding-bottom: 50px;
   background-color: transparent;
-  overflow: hidden;
-  visibility: hidden;
   -webkit-transform: translate3d(0, 0, 0);
   -o-transform: translate3d(0, 0, 0);
   -moz-transform: translate3d(0, 0, 0);
@@ -2313,9 +2309,14 @@ blockquote footer, blockquote small, blockquote .small {
     display: none;
   }
 
+  .about-me{
+    border-left: none;
+    padding: 0;
+  }
+  
   .header {
     width: 100%;
-    max-width: 320px;
+    max-width: 177px;
     height: calc(100% - 50px);
     right: 0;
     top: 50px;
@@ -2531,7 +2532,7 @@ blockquote footer, blockquote small, blockquote .small {
 .gallery__column {
   display: flex;
   flex-direction: column;
-  width: 25%;
+  width: 50%;
 }
 .gallery__link {
   margin: 2px;
@@ -2640,9 +2641,3 @@ blockquote footer, blockquote small, blockquote .small {
 }
 
 
-@media only screen and (max-width: 766px) {
-  .about-me{
-    border-left: none;
-    padding: 0;
-  }
-}
