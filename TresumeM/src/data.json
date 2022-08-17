@@ -1,0 +1,82 @@
+{
+    "FName":"Amirmohammad",
+    "LName":"Qaffari",
+    "JobTitle": "AI engineering",
+    "Links":{
+        "Github": "https://github.com/famirqfr",
+        "Linkedin": "https://www.linkedin.com/in/famirqfr/",
+        "Telegram": "http://t.me/famirqfr"
+    },
+    "Sections": [
+        {
+            "Title":"About",
+            "Items":[{
+                "Type" : "p",
+                "Content": "Computer Science student and Interested in learning. In 2016, I entered the world of programming and started building and designing Android software with java. I continued my activity with WordPress and website design and got acquainted with skills such as ASP.Net Core, Django for the server side and Angular, reatjs for the user side. Since 2019, I became familiar with the world of artificial intelligence and became interested in this field of engineering and computer programming, and in addition to my activities in the field of website design and web software, I also followed the learning of artificial intelligence, which I was able to do with popular tools and libraries such as numpy, pandas and... to learn about data science and machine learning The story of learning continues..."
+            }]
+        },
+        {
+            "Title":"Skills",
+            "Items":[
+                {
+                    "Type" : "article",
+                    "Content": {
+                        "Url": "assets/image/Python.png",
+                        "Title": "Python",
+                        "Description":"Python is a high-level, interpreted, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. Python is dynamically-typed and garbage-collected.",
+                        "Persent": "95%"
+                    }
+                },
+                {
+                    "Type" : "article",
+                    "Content": {
+                        "Url": "assets/image/Django.png",
+                        "Title": "Django",
+                        "Description":"Django is a free and open-source, Python-based web framework that follows the model–template–views architectural pattern. It is maintained by the Django Software Foundation, an independent organization established in the US as a 501 non-profit.",
+                        "Persent": "90%"
+                    }
+                },
+                {
+                    "Type" : "article",
+                    "Content": {
+                        "Url": "assets/image/AI.png",
+                        "Title": "Artificial Intelligence",
+                        "Description":"Artificial intelligence is intelligence demonstrated by machines, as opposed to the natural intelligence displayed by animals including humans.",
+                        "Persent": "70%"
+                    }
+                },
+                {
+                    "Type" : "article",
+                    "Content": {
+                        "Url": "assets/image/Ml.png",
+                        "Title": "ML",
+                        "Description":"Machine learning is a field of inquiry devoted to understanding and building methods that 'learn', that is, methods that leverage data to improve performance on some set of tasks. It is seen as a part of artificial intelligence.",
+                        "Persent": "70%"
+                    }
+                },
+                {
+                    "Type" : "article",
+                    "Content": {
+                        "Url": "assets/image/DL.png",
+                        "Title": "DL",
+                        "Description":"Deep learning is part of a broader family of machine learning methods based on artificial neural networks with representation learning. Learning can be supervised, semi-supervised or unsupervised.",
+                        "Persent": "65%"
+                    }
+                },
+                {
+                    "Type" : "article",
+                    "Content": {
+                        "Url": "assets/image/React.png",
+                        "Title": "ReactJs",
+                        "Description":"React is a free and open-source front-end JavaScript library for building user interfaces based on UI components. It is maintained by Meta and a community of individual developers and companies.",
+                        "Persent": "80%"
+                    }
+                }
+            ]
+            
+        }
+    ],
+    "Icons":{
+        "DownIcon": "assets/image/down.png" 
+    }
+}
