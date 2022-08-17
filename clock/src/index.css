@@ -79,7 +79,8 @@ body{
   border-radius: 5px;
   min-width: 70px;
   height: 15px;
-
+  font-family: sans-serif;
+  color: #1da0f1;
 }
 .time small{
   color: #3c97bf;
@@ -90,7 +91,7 @@ body{
 .clock ul{
   list-style: none;
   padding: 0;
-
+  font-family: fantasy;
 }
 .clock ul li{
   position: absolute;
@@ -243,6 +244,27 @@ transition:all .3s ease-in-out;
   line-height: 20px;
   padding-left: 5px;
 
+}
+
+.owner {
+  position: absolute;
+  top: 12%;
+  right: calc(50% - 40px);
+  padding: 5px;
+  display: block;
+  min-width: 70px;
+  height: 15px;
+  font-family: sans-serif;
+}
+.brand {
+  position: absolute;
+  bottom: 15%;
+  right: calc(50% - 40px);
+  padding: 5px;
+  display: block;
+  min-width: 70px;
+  height: 15px;
+  font-family: sans-serif;
 }
 
 @keyframes youtubeAnim{
