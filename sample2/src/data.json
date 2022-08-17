@@ -1,0 +1,47 @@
+{
+    "FirstName": "Amirmohammad",
+    "LastName": "Qaffari",
+    "NickName": "Famirqfr",
+    "links": {
+        "github": "",
+        "linkdin": ""
+    },
+    "sections": [
+        {
+            "title": "About",
+            "items": [
+                {
+                    "type": "p",
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "title": "About",
+            "items": [
+                {
+                    "type": "p",
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "title": "About",
+            "items": [
+                {
+                    "type": "p",
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "title": "About",
+            "items": [
+                {
+                    "type": "p",
+                    "content": ""
+                }
+            ]
+        }
+    ]
+}
