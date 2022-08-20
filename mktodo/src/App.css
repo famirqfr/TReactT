@@ -1,0 +1,17 @@
+.button {
+    cursor: pointer;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
+  
+  .button:hover {
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+
+  .pointer{
+    cursor: pointer;
+  }
