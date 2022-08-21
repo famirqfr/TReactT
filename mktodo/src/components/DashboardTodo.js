@@ -24,6 +24,7 @@ class DashboardTodo extends Component {
             <a
               className={`pointer ${todoStore.ShowFilter === "active" ? "selected" : ""}`}
               onClick={(event) => todoStore.updateFilter("active")}
+              href="#/active"
             >
               Active
             </a>
@@ -32,6 +33,7 @@ class DashboardTodo extends Component {
             <a
               className={`pointer ${todoStore.ShowFilter === "completed" ? "selected" : ""}`}
               onClick={(event) => todoStore.updateFilter("completed")}
+              href="#/completed"
             >
               Completed
             </a>

@@ -8,8 +8,6 @@ class TodoList extends Component {
     render() {
         return (
             <section className='main'>
-                <input id="toggle-all" class="toggle-all" type="checkbox" onClick={(event)=> todoStore.checkAll()}/>
-				<label for="toggle-all">Mark all as complete</label>
                 <ul className='todo-list'>
                     {
                         todoStore.todosFiltered.map((todo,key)=>{

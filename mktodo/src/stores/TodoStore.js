@@ -44,11 +44,6 @@ class TodoStore {
         return this.Todos.filter(todo => !todo.Completed).length
     }
 
-    @computed 
-    checkAll(){
-        return this.Todos.map(todo => todo.Completed = true)
-    }
-
     @computed get todosFiltered() {
       if (this.ShowFilter === 'all') {
         return this.Todos;
